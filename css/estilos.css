@@ -1,7 +1,14 @@
-body {
+body {    
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     /*box-shadow: 5px 5px 5px rgba(0,0,0,0.5);*/
+}
+section {
+    box-shadow: 3px 3px 10px #000;
+}
+.container {
+    margin: 0 auto;
+    width: 940px;
 }
 
 .sacola {
@@ -21,6 +28,7 @@ body {
 
 .menu-opcoes {
     position: absolute;
+    top: 50px;
     bottom: 0;
     right: 0;
 }
@@ -46,11 +54,6 @@ body {
     border-radius: 3px;*/
 }
 
-.container {
-    margin: 0 auto;
-    width: 940px;
-}
-
 header {
     position: relative;
 }
@@ -66,6 +69,16 @@ header {
     float: left;
 }
 
+.destaque {
+    margin-top: 10px;
+}
+
+.menu-departamentos {
+    clear: left;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
 .busca h2, .busca form, .menu-departamentos h2 {
     margin: 10px;
 }
@@ -76,10 +89,6 @@ header {
     padding: 5px 10px;
 }
 
-.menu-departamentos {
-    clear: left;
-}
-
 .menu-departamentos a {
     color: #333333;
     text-decoration: none;
@@ -87,4 +96,55 @@ header {
 
 .busca input [type=search] {
     width: 170px;
+}
+
+.banner-destaque {
+    margin-top: 10px;
+}
+
+div .painel {
+margin: 0;
+}
+.painel {
+    margin: 10px 0;
+    padding: 10px;
+    /*width: 445px;*/
+    display: inline;
+}
+
+.painel li {
+    display: inline-block;
+    vertical-align: top;
+    width: 140px;
+
+    margin: 2px;
+    padding-bottom: 10px;
+}
+
+.painel h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.painel a {
+    color: #333;
+    font-size: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.novidades {
+    float: left;
+    background-color: #F5DCDC;
+    width: 445px;
+    margin-top: 10px;
+}
+
+.mais-vendidos {
+    float: right;
+    background-color: #dcdcf5;
+    width: 445px;
+    margin-top: 10px;
 }
