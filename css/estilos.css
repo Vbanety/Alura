@@ -3,7 +3,7 @@ body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     /*box-shadow: 5px 5px 5px rgba(0,0,0,0.5);*/
 }
-section {
+#sombra {
     box-shadow: 3px 3px 10px #000;
 }
 .container {
@@ -56,6 +56,7 @@ section {
 
 header {
     position: relative;
+    border-radius: 10px;
 }
 
 .busca, .menu-departamentos {
@@ -81,6 +82,22 @@ header {
 
 .busca h2, .busca form, .menu-departamentos h2 {
     margin: 10px;
+}
+.busca input {
+    width: 160px;
+}
+
+
+
+.busca button {
+    background-image: url(../image/busca.png);
+    background-repeat: no-repeat;
+    border: none;
+
+    width: 20px;
+    height: 20px;
+    text-indent: -9999px;
+
 }
 
 .menu-departamentos li {
@@ -117,7 +134,7 @@ margin: 0;
     vertical-align: top;
     width: 140px;
 
-    margin: 2px;
+    margin: 2px 5PX;
     padding-bottom: 10px;
 }
 
@@ -126,6 +143,7 @@ margin: 0;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    margin: 10px 0 5px 10px;
 }
 
 .painel a {
@@ -135,16 +153,74 @@ margin: 0;
     text-decoration: none;
 }
 
+img {
+    border-radius: 10px;
+}
+
 .novidades {
     float: left;
     background-color: #F5DCDC;
-    width: 445px;
+    width: 460px;
     margin-top: 10px;
+    border-radius: 10px;
 }
 
 .mais-vendidos {
     float: right;
     background-color: #dcdcf5;
-    width: 445px;
+    width: 460px;
     margin-top: 10px;
+    border-radius: 10px;
 }
+
+footer {
+    background-image: url(../image/fundo-rodape.png);
+    clear: both;
+    padding: 20px 5px;
+}
+
+footer .container {
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 12px;
+    right: 0;
+}
+
+.social li {
+    float: left;
+    margin-left: 25px;
+}
+.social a {
+    height: 32px;
+    width: 32px;
+    display: block;
+    text-indent: -9999px;
+}
+
+.social a[href*="facebook.com"] {
+background-image: url(../image/facebook.png);
+}
+
+.social a[href*="twitter.com"] {
+    background-image: url(../image/twitter.png);
+}
+
+.social a[href*="plus.google.com"] {
+    background-image: url(../image/googleplus.png);
+}
+
+
+/*
+.social {
+    display: inline-flex;
+    float: right;
+    margin: 10px;
+  background-image: url(../image/facebook.png);
+}
+
+
+
+*/
