@@ -5,8 +5,9 @@ body {
     width: 940px;
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    border: 1px solid red;
-    /*box-shadow: 10px 10px;*/
+    border: 1px solid #dcdcf5;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000;
 
     
 }
@@ -15,6 +16,10 @@ h1 {
     background-image: url(../image/sobre-background.jpg);
     padding: 10px;
     border-radius: 5px;
+}
+
+h1 + p {
+    text-indent: 0;
 }
 
 h2 {
@@ -27,6 +32,11 @@ p {
     text-indent: 15px;
     text-align: left;
     text-indent: 10px;
+}
+
+p::first-letter {
+    font-weight: bold;
+    font-variant: small-caps;
 }
 
 figure {
@@ -71,6 +81,7 @@ footer {
     background-image: url(../image/fundo-rodape.png);
     clear: both;
     padding: 20px 5px;
+    border-radius: 5px;
 }
 
 footer .container {
@@ -79,14 +90,17 @@ footer .container {
 
 .social {
     position: absolute;
-    top: 12px;
+    top: -1px;
     right: 0;
 }
+
 
 .social li {
     float: left;
     margin-left: 25px;
+    padding-right: 20px;
 }
+
 .social a {
     height: 32px;
     width: 32px;
