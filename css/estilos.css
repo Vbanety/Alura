@@ -41,6 +41,16 @@ body {
     display: inline;
     margin-left: 20px;
     text-transform: uppercase;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.menu-opcoes ul li:hover {
+    background-color: #333333;
+    opacity: .5;
+    transition: 3s;
 }
 
 .menu-opcoes a {
@@ -49,7 +59,7 @@ body {
 }
 
 .menu-opcoes a:hover {
-    color: #007dc6;
+    color: #ffffff;
 }
 
 .menu-opcoes a:active {
@@ -92,6 +102,13 @@ header {
 
 .menu-departamentos ul ul li {
     background-color: #dcdcdc;
+    opacity: .3;
+}
+
+.menu-departamentos ul ul li:hover{
+    transition: 2s;
+    opacity: 1;
+
 }
 
 .menu-departamentos li li a::before {
