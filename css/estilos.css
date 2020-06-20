@@ -1,11 +1,63 @@
+/*     ////////////////////////////// CELULAR //////////////////////////////      */
+
+@media (max-width: 939px) {
+    .container {
+        width: 96%;
+        /* display: grid; */
+    }
+
+    header h1 {
+        text-align: center;
+    }
+
+    header h1 img {
+        max-width: 100%;
+    }
+
+    .sacola {
+        display: none;
+    }
+
+    .menu-opcoes {
+        position: static;
+        text-align: center;
+    }
+    
+    .menu-opcoes ul li {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
+    .busca, .menu-departamentos, .banner-destaque img {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .painel {
+        width: auto;
+    }
+
+    .painel li {
+        margin: 30%;
+    }
+
+    .painel img {
+        width: 100%;
+    }
+}
+
+/*     ////////////////////////////// DESKTOP //////////////////////////////      */
+
 body {    
     color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-    /*box-shadow: 5px 5px 5px rgba(0,0,0,0.5);*/
 }
 .sombra {
     box-shadow: 2px 2px 5px #000;
 }
+
+
+/* Utilizando o media para renderizar em mobile. */
 .container {
     margin: 0 auto;
     width: 940px;
@@ -17,7 +69,7 @@ body {
     background-position: top right;
     font-size: 14px;
     padding-right: 35px;
-    /*text-align: right;*/
+    text-align: right;
     width: 140px;
    
     padding-top: 8px;
@@ -27,7 +79,8 @@ body {
 }
 
 .menu-opcoes {
-    position: absolute;
+    /* alteração para celular */
+    position: absolute; 
     top: 50px;
     bottom: 0;
     right: 0;
@@ -38,13 +91,14 @@ body {
 }
 
 .menu-opcoes ul li {
-    display: inline;
-    margin-left: 20px;
+    display: inline; /*alteração para celular*/
+    margin-left: 5px;
+    text-align: center;
+    /* 
     text-transform: uppercase;
-    padding: 10px;
     border: 1px solid black;
     border-radius: 3px;
-    text-align: center;
+    */
 }
 
 .menu-opcoes ul li:hover {
@@ -57,7 +111,6 @@ body {
     color: #003366;
     text-decoration: none;
 }
-
 
 
 .menu-opcoes a:hover {
@@ -79,8 +132,7 @@ header {
     text-transform: uppercase;
 
     margin-right: 10px;
-    width: 230px;
-
+    Width: 230px; /*alteração para celular */
     float: left;
 }
 
@@ -174,16 +226,16 @@ margin: 0;
 .painel {
     margin: 10px 0;
     padding: 10px;
-    /*width: 445px;*/
+    /* width: 445px;  alteração para celular */
     display: inline;
 }
 
 .painel li {
     display: inline-block;
     vertical-align: top;
-    width: 140px;
-
+    width: 140px; /*alteração para celular*/
     margin: 2px 5PX;
+   
     padding-bottom: 10px;
 }
 
@@ -315,6 +367,5 @@ background-image: url(../image/facebook.png);
   background-image: url(../image/facebook.png);
 }
 
-
-
 */
+
