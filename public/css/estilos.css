@@ -1,9 +1,9 @@
 /*     ////////////////////////////// CELULAR //////////////////////////////      */
 
-@media (max-width: 939px) {
+@media (max-width: 320px) {
     .container {
         width: 96%;
-        /* display: grid; */
+        display: grid; 
     }
 
     header h1 {
@@ -79,11 +79,11 @@ body {
 }
 
 .menu-opcoes {
-    /* alteração para celular */
-    position: absolute; 
+    /* alteração para celular 
+    position: absolute; */
     top: 50px;
     bottom: 0;
-    right: 0;
+    right: 20px;
 }
 
 .menu-opcoes ul {
@@ -91,7 +91,8 @@ body {
 }
 
 .menu-opcoes ul li {
-    display: inline; /*alteração para celular*/
+    /*alteração para celular */
+    display: inline; 
     margin-left: 5px;
     text-align: center;
     /* 
@@ -132,7 +133,7 @@ header {
     text-transform: uppercase;
 
     margin-right: 10px;
-    Width: 230px; /*alteração para celular */
+    /*Width: 230px; alteração para celular */
     float: left;
 }
 
@@ -220,21 +221,19 @@ header {
     margin-top: 10px;
 }
 
-div .painel {
-margin: 0;
-}
+
 .painel {
     margin: 10px 0;
     padding: 10px;
-    /* width: 445px;  alteração para celular */
+    /*width: 445px;  alteração para celular */
     display: inline;
 }
 
 .painel li {
     display: inline-block;
     vertical-align: top;
-    width: 140px; /*alteração para celular*/
-    margin: 2px 5PX;
+    width: 140px; /* alteração para celular*/
+    margin: 2px 2px;
    
     padding-bottom: 10px;
 }
