@@ -1,6 +1,6 @@
 /*     ////////////////////////////// CELULAR //////////////////////////////      */
 
-@media (max-width: 320px) {
+@media (max-width: 939px) {
     .container {
         width: 96%;
         display: grid;
@@ -37,9 +37,29 @@
 
     }
 
+    .busca h2, .busca form, .menu-departamentos h2 {
+        margin: 10px;
+        font-size: 35px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
     .busca, .menu-departamentos, .banner-destaque img {
         margin-right: 0;
         width: 100%;
+    }
+
+    .busca input {
+        /* width: 60%; */
+        height: 50px;
+        border-radius: 20px;
+    }
+
+    .menu-departamentos a {
+        color: #333333;
+        text-decoration: none;
+        font-size: 35px;
+        line-height: normal;
     }
 
     .painel {
@@ -66,8 +86,11 @@
     }
 
     .novidades h2 {
-        font-size: 30px;
-        margin: 20px auto;
+        font-size: 55px;
+    }
+
+    .mais-vendidos h2 {
+        font-size: 55px;
     }
 
     .novidades figcaption {
@@ -83,15 +106,39 @@
         height: 790px;
     }
 
-    /* .painel .novidades ol li {
-        /* margin: 10%; 
-        background-position: 200px 200px;
-    } */
-
     .painel img {
         width: 100%;
     }
 }
+
+/*//////////////////////// TABLET //////////////////////*/
+
+@media (min-width: 480px) {
+    header h1 {
+        margin: 5px 0;
+    }
+
+    .menu-departamentos {
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .menu-departamentos nav > ul {
+        column-count: 2;
+    }
+}
+
+/*//////////////// TABLETs MAIORES QUE 768PX //////////////////////*/
+
+@media (min-width: 720px) {
+    header h1 {
+        text-align: left;
+    }
+
+    
+}
+
+
 
 /*//////////////////////////// DESKTOP //////////////////////*/
 
@@ -178,9 +225,10 @@ header {
     background-color: #dcdcdc;
     font-weight: bold;
     text-transform: uppercase;
-    margin-right: 32px;
-    /*Width: 230px; alteração para celular*/
+    margin-right: 13px;
+    /*Width: auto; alteração para celular*/
     float: left;
+    padding: 10px;
 }
 
 .destaque {
@@ -228,10 +276,10 @@ header {
 }
 
 .busca h2, .busca form, .menu-departamentos h2 {
-    margin: 10px;
+    margin: 0;
 }
 .busca input {
-    width: 160px;
+    width: 70%;
 }
 
 .busca {
@@ -293,7 +341,7 @@ figure {
 }
 
 .painel h2 {
-    font-size: 24px;
+    font-size: auto;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
