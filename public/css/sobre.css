@@ -73,6 +73,30 @@
         height: auto;
         margin: 15px auto;
     }
+
+    .rodape {
+        font-size: 20pt;
+    }
+
+    footer img {
+        height: 100px;
+    }
+    
+    footer ul {
+        margin-right: 30px;
+        margin-top: 20px;
+    }
+
+    footer ul li {
+        width: 70px;
+        height: 70px;
+    }
+
+    footer a {
+        background-size: 60px 60px;
+    }
+
+
 }
 
 
@@ -158,16 +182,18 @@
     }
 
     footer {
-        height: 80px;
+        height: 100px;
+    }
+
+    footer ul {
+        margin-top: 2px;
     }
 
     .container div {
         height: 60px;
     }
 
-    .container img {
-        height: 80%;
-    }
+    
 
     .rodape {
         margin: 0px 0;
@@ -183,10 +209,12 @@
 
 @media (min-width: 480px) {
     
-    header img {
-        /* width: 90%; */
-        position: relative;
-        left: 5%;
+    #mirror {
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0;
+        width: 90%;
+        height: 170px;
     }
 
     header h1 {
@@ -207,8 +235,11 @@ body {
     border: 1px solid #dcdcf5;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #000;
+}
 
-    
+#mirror img {
+    height: 100%;
+    width: 100%;
 }
 
 h1 {
@@ -297,23 +328,28 @@ footer .container {
     float: left;
     margin-left: 25px;
     padding-right: 20px;
+    height: 60px;
+    width: 60px;
 }
 
 .social a {
-    height: 32px;
-    width: 32px;
+    height: 100%;
+    width: 100%;
     display: block;
     text-indent: -9999px;
 }
 
 .social a[href*="facebook.com"] {
     background-image: url(../image/facebook.png);
+    background-repeat: no-repeat;
 }
 
 .social a[href*="twitter.com"] {
     background-image: url(../image/twitter.png);
+    background-repeat: no-repeat;
 }
 
 .social a[href*="plus.google.com"] {
     background-image: url(../image/googleplus.png);
+    background-repeat: no-repeat;
 }

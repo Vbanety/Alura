@@ -16,6 +16,10 @@ server.get("/sobre", (req, res) => {
     res.sendFile(__dirname + "/views/sobre.html")
 })
 
+server.get("/produtos.html", (req, res) => {
+    res.sendFile(__dirname + "/views/produtos.html")
+})
+
 
 
 //Ligar o servidor

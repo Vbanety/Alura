@@ -34,7 +34,6 @@
         position: relative;
         top: 330px;
         right: 0;
-
     }
 
     .busca h2, .busca form, .menu-departamentos h2 {
@@ -64,8 +63,7 @@
     width: 20px;
     height: 20px;
     text-indent: -9999px;
-}
-
+    }
     .menu-departamentos a {
         color: #333333;
         text-decoration: none;
