@@ -15,6 +15,7 @@
 
     position: relative;
     top: -30px;
+    left: 0;
     border: 6px solid rgba(0, 0, 0, 0);
     transition: 1s;
 }
@@ -38,10 +39,10 @@ label[for=azul]::after{
 .cores label::after {
     box-sizing: border-box;
     margin-top: -30px;
-    /* position: absolute;
+    position: absolute;
     left: 20px;
     top: 60px;
-     */
+    
 }
 
 .cores input[type=radio] {
@@ -179,7 +180,10 @@ td:first-child {
     background-color: #f2f2f2;
     margin-top: 1em;
     border-top: 2px solid #ccc;
-    width: 100%;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 
 .cores label img {
@@ -189,9 +193,14 @@ td:first-child {
 /* ////////////////// Celular 600 pixels ////////////////// */
 
 @media (min-width: 600px) {
-    /* .produto img {
+    .produto img {
         float: left;
-    } */
+        position: relative;
+    }
+
+    .cores label:after {
+        margin-left: 0;
+    }
 }
 
 
