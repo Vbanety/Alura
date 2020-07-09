@@ -16,8 +16,12 @@ server.get("/sobre", (req, res) => {
     res.sendFile(__dirname + "/views/sobre.html")
 })
 
-server.get("/produtos.html", (req, res) => {
+server.get("/produtos", (req, res) => {
     res.sendFile(__dirname + "/views/produtos.html")
+})
+
+server.get("/checkout", (req, res) => {
+    res.sendFile(__dirname + "/views/checkout.html")
 })
 
 
