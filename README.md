@@ -1,6 +1,6 @@
 # Alura 
-- Curse from <a href="https://www.caelum.com.br/apostila/apostila-html-css-javascript.pdf">PDF</a> of Alura
-##
+- Alura <a href="https://www.caelum.com.br/apostila/apostila-html-css-javascript.pdf">**PDF**</a> curse.
+
 
 ## Creating the webpage Mirror Fashion 💻🖥⌨🖱
 
