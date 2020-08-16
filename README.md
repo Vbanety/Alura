@@ -1,6 +1,7 @@
 # Alura 
-- Alura <a href="https://www.academia.edu/16268685/Caelum_html_css_javascript_php" target="blank">**PDF**</a> curse.
+- <a href="https://www.academia.edu/16268685/Caelum_html_css_javascript_php" target="blank">Alura</a> <a href="https://www.alura.com.br/" target="blank">**PDF**</a> curse.
 
+I decided make this project, just to get experience with creation website pages, because this content of the PDF of Alura, have many information and tips with cleary concepts about the structure frontend.
 
 ## Creating the webpage Mirror Fashion 💻🖥⌨🖱
 
