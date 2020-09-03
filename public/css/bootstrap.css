@@ -545,6 +545,13 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  
+}
+
+.header-card {
+  justify-content: center;
+  align-items: center;
+  margin: auto 20px
 }
 
 @media (min-width: 576px) {

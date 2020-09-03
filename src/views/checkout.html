@@ -4,15 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/open-iconic-bootstrap.css">
 
         <title>Checkout Mirror Fashion</title>
     </head>
     <body>
-        
-        <div class="jumbotron jumbotron-fluid">
-                <div class="container">        
-                <h1 class="display-4">Otima escolha!</h1>
-                <p class="lead">Obrigado por comprar na Mirror Fashion! Preencha seus dados para efetivar a compra.</p>
+        <div class="container">        
+            <div class="jumbotron jumbotron-fluid">
+                <div class="header-card">
+                    <h1 class="display-4">Otima escolha!</h1>
+                    <p class="lead">Obrigado por comprar na Mirror Fashion! Preencha seus dados para efetivar a compra.</p>
+                </div>
             </div>
         </div>
         <div class="container">
@@ -21,7 +23,7 @@
                     <h2>Sua compra</h2>
                 </div>
                 <div class="card-body">
-                    <img src="image/produtos/foto1-verde.png" alt="Fuzzy Cardigan" class="img-thumbneail nb-3">
+                    <img src="image/produtos/foto1-verde.png" alt="Fuzzy Cardigan" class="img-thumbnail mb-3">
                     <dl>
                         <dt>Produto</dt>
                         <dd>Fuzzy Cardigan</dd>
@@ -37,8 +39,17 @@
                     </dl>
                 </div>
             </div>
+            <form action="/efetivar.html" method="POST">
+                <label for="name">Nome: </label>
+                <input type="text" name="nome" id="nome">
+    
+                <!-- <input type="submit"> -->
+                <input type="image" name="botao" src="image/send-message-icon1.png" alt="Botão para enviar o formulário" width="30" height="28">
+                <span class="oi-thumb-up">Test</span>
+                
+            </form>
         </div>
         <!-- //blablabla -->
-
+        
     </body>
 </html>
